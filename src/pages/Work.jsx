@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 
 export default function Work() {
   return (
-    <div>
+    <main className='bg-[#202020]'>
       <Navbar className=""/>
       <div class="bg-center -mt-[56px]">
         <img className='w-full' src="./wallpaper.png" alt="" />
@@ -22,6 +22,6 @@ export default function Work() {
       <Conclusion/>
       <div className='bg-[#b8b8b84b] h-[1px] w-full'></div>
       <Footer />
-    </div>
+    </main>
   )
 }
